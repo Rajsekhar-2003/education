@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rightway Educational Consultancy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="contact-info">
+                <i class="fas fa-phone"></i>
+                <span>CALL US - 7003605301</span>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61573496720412"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rightway_education_kolkata/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo"><img src="images/pic1.png" height="50px" width="250px"></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="query.html">Query</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="section-title">
+            <h2>Our Courses</h2>
+            <p>We provide guidance for various medical and engineering courses to help you achieve your career goals.</p>
+        </div>
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="course-img">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div class="course-content">
+                    <h3>MBBS</h3>
+                    <p>Bachelor of Medicine, Bachelor of Surgery - Become a qualified medical practitioner.</p>
+                    <a href="medical.html" class="course-button">Learn More</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-img">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <div class="course-content">
+                    <h3>MD/MS</h3>
+                    <p>Doctor of Medicine/Master of Surgery - Specialize in your preferred medical field.</p>
+                    <a href="medical.html" class="course-button">Learn More</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-img">
+                    <i class="fas fa-procedures"></i>
+                </div>
+                <div class="course-content">
+                    <h3>Nursing</h3>
+                    <p>Nursing courses to become a registered nurse or specialize in various nursing fields.</p>
+                    <a href="bse.html" class="course-button">Learn More</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-img">
+                    <i class="fas fa-ambulance"></i>
+                </div>
+                <div class="course-content">
+                    <h3>Paramedical</h3>
+                    <p>Various paramedical courses including lab technology, radiography, and more.</p>
+                    <a href="#" class="course-button">Learn More</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-img">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="course-content">
+                    <h3>Engineering</h3>
+                    <p>Various engineering disciplines including Computer, Mechanical, Civil, and more.</p>
+                    <a href="engeniring.html" class="course-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">RIGHTWAY <span>CONSULTANCY</span></div>
+                <p>We are a leading educational consultancy helping students achieve their dreams in medical and engineering fields.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61573496720412"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/rightway_education_kolkata/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul class="contact-info-footer">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>57/3M N.S.C Bose Road (49, Nehru Colony) Kolkata - 700040</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>7003605301</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>rightwayeducational8@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Rightway Educational Consultancy. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        const navItems = document.querySelectorAll('.nav-links a');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 90,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Sticky header on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
